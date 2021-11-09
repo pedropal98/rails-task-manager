@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <h1>TASK LIST</h1>
     <%= yield %>
+
+    <%= link_to "Go to tasks", tasks_path(@tasks) %>
   </body>
 </html>
